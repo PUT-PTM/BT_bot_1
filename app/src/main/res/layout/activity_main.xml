@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFA207A"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.ania.jamnik.MainActivity">
+
+    <Button
+        android:id="@+id/przod"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="37dp"
+        android:background="#FFFFFF10"
+        android:text="PRZOD"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/prawa" />
+
+    <Button
+        android:id="@+id/lewa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/przod"
+        android:layout_toLeftOf="@+id/przod"
+        android:layout_toStartOf="@+id/przod"
+        android:background="#FFFFFF10"
+        android:text="LEWA" />
+
+    <Button
+        android:id="@+id/prawa"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/przod"
+        android:layout_toEndOf="@+id/tyl"
+        android:background="#FFFFFF10"
+        android:text="PRAWA" />
+
+    <Button
+        android:id="@+id/tyl"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/lewa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="#FFFFFF10"
+        android:text="TYL" />
+
+    <Button
+        android:id="@+id/polacz"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#FFFFFF10"
+        android:text="POLACZ BLUETOOTH" />
+</RelativeLayout>
