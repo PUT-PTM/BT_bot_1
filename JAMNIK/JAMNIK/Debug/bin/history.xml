@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=JAMNIK.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\JAMNIK -TC:\CooCox\CoIDE\configuration\ProgramData\JAMNIK/arm-gcc-link.ld -g">
+      <target file="JAMNIK.elf" lastModified="15eab4be7f8">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15eab4be334"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15eab4be366"/>
+         <source file="..\obj\main.o" lastModified="15eab4be3ca"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15eab4be442"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15eab4be4a6"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15eab4be4ec"/>
+         <source file="..\obj\misc.o" lastModified="15eab4be53c"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15eab4be604"/>
+      </target>
+   </processor>
+</history>

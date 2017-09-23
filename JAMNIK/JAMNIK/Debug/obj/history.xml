@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\JAMNIK\cmsis_lib\include -I..\..\..\workspace\JAMNIK\cmsis_boot -I..\..\..\workspace\JAMNIK -I..\..\..\workspace -I..\..\..\workspace\JAMNIK\cmsis -I..\..\..\workspace\JAMNIK\cmsis_lib">
+      <target file="stm32f4xx_tim.o" lastModified="15eab4be604">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15eab4786ea"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15eab4be442">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15eab475de6"/>
+      </target>
+      <target file="misc.o" lastModified="15eab4be53c">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15eab47c1d2"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15eab4be4ec">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15eab4a28cc"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="15eab4be4a6">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15eab477182"/>
+      </target>
+      <target file="main.o" lastModified="15eab4be3ca">
+         <source file="..\..\..\main.c" lastModified="15eab48159a"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15eab4be334">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15eab47a10c"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15eab4be366">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15eab475df0"/>
+      </target>
+   </processor>
+</history>
