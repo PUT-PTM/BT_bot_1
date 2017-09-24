@@ -41,7 +41,7 @@ GND - GND <br>
  - **Microcontroller part:** <br>
  Connect STM32 microcontroller to your computer via USB. Then open project in CoIDE and click *Download Code To Flash*.
  - **Android application part:** <br>
- Connect smartphone to your computer via USB (you must have enable developer mode in it!). Then open project in Android Studio and click *Run* (Android Studio automatically find your ADB in phone). Press *Install* on your phone.
+ Connect smartphone to your computer via USB (you must have enabled developer mode in it!). Then open project in Android Studio and click *Run* (Android Studio automatically find your ADB in phone). Press *Install* on your phone.
 
 ## Authors
 - [Anna Zdrojewska](https://github.com/SideCut13)
